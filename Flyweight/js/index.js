@@ -33,7 +33,7 @@ document.getElementById('next_page').onclick = function () {
   var n = ++paper * num % len,
       j = 0;
 
-  for (;; j < 5; j++) {
+  for (; j < 5; j++) {
     if (article[n + j]) {
       Flyweight.getDiv().innerHTML = article[n + j];
     } else if (article[n + j - len]) {
@@ -42,4 +42,4 @@ document.getElementById('next_page').onclick = function () {
       Flyweight.getDiv().innerHTML = "";
     }
   }
-}
+}!!!!!!!!!!!!
